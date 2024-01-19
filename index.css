@@ -1,0 +1,241 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+/* the first box */
+.parent{
+width: 100vw;
+position: relative;
+border-radius: 1rem;
+position: relative;
+background-color: hsl(0, 0%, 100%);
+}
+
+.box1{
+display: flex;
+flex-direction: column;
+gap: 0.5rem;
+margin-bottom: 2rem;
+}
+
+#parentChild1{
+min-width: 100%;
+padding:1rem 1rem;
+}
+
+p.bill{
+    /* margin-bottom: 0.5rem; */
+    color:  hsl(186, 14%, 43%);
+}
+
+
+
+svg#imageSvg1{
+    position: absolute;
+    top: 3.5rem;
+   left: 1.5rem;
+   
+  
+}
+
+
+
+#inputNumber1, #inputNumber2{
+outline: none;
+background-color:
+hsl(189, 41%, 97%) ;
+   color:hsl(183, 100%, 15%) ;
+   border: none;
+   font-size: 24px;
+     width: 100%;
+    padding:0.4rem 1rem;
+    border-radius: 0.2rem;
+    color:  hsl(186, 14%, 43%);
+    text-align: right;
+}
+
+
+/* box2 styling */
+
+
+.box2{display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: relative;
+   
+     
+}
+
+.boxForButton{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+     
+}
+
+.firstColumn,.secondColumn{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+    
+}
+
+.firstColumn{
+    width: 49%;
+}
+
+p.InputForCustom{
+    display: flex;
+}
+
+#inputCustom{
+    width: 100%;
+    
+}
+
+
+
+.secondColumn{
+flex-basis: 49%;
+}
+
+p.selectTip{
+    font-size: 1.3rem;
+    color:  hsl(186, 14%, 43%);
+}
+
+button, #inputCustom{
+    padding: 1rem 0;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    outline: none;
+    
+}
+
+#inputCustom{
+    border: none;
+}
+
+#button1, #button2, #button3,#button4,#button5{
+    background-color:hsl(183, 100%, 15%);
+    color: hsl(0, 0%, 100%) ;
+}
+
+#button1:hover, #button2:hover, #button3:hover, #button4:hover, #button5:hover{
+    background-color: hsl(172, 67%, 45%); 
+    color:hsl(183, 100%, 15%) ;
+    border: none;
+}
+
+#inputCustom{
+    background-color:hsl(189, 41%, 97%) ;
+    text-align: right;
+    padding-right: 1rem;
+}
+
+#inputCustom::placeholder{
+    font-size: 1.5rem;
+    text-align: right;
+    padding-right: 0.7rem;
+   
+}
+
+
+.numberOfPeople{
+    padding-bottom: 1rem;
+    color: hsl(186, 14%, 43%);
+}
+
+.svgImage2{
+    position: absolute;
+    bottom: 1rem;
+    left: 0.7rem;
+}
+
+
+
+
+
+.forDisplayNone{
+    display: none !important;
+}
+
+/* javascript css */
+
+.thirdBox{
+    margin-top: 1.5rem;
+    padding: 1.5rem 1rem;
+    
+    border-radius: 1rem;
+    background-color:hsl(183, 100%, 15%);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+}
+
+
+.person, .totalAmount{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+svg.perPersonDollarImage, svg.totalDollarImage{
+    fill: hsl(172, 67%, 45%);
+    
+
+}
+
+
+.personNumber, .totalNumber{
+    color:hsl(172, 67%, 45%);
+    display: inline-block;
+    font-size: 22px;
+}
+
+
+.totalPerson, .tipAmount{
+    color: white;
+    font-size: 1.5rem;
+}
+
+span.person{
+    display: inline-block;
+    padding-top: 0.4rem;
+    color: hsl(186, 14%, 43%);
+    font-size:1.2rem ;
+
+}
+
+
+#button6{
+    color:hsl(183, 100%, 15%);
+    background-color: hsl(172, 67%, 45%);
+    border: none;
+}
+
+#button6:hover{
+    color: hsl(172, 67%, 45%);
+    background-color: hsl(183, 100%, 15%);
+}
+
+.zero{
+    position: absolute;
+    bottom: 24rem;
+    right: 1rem;
+    font-size: 0.5rem;
+    color: red;
+}
+
+.newClass{
+    font-size: 0.5rem;
+    color: red;
+}
+
+

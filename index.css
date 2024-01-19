@@ -152,8 +152,8 @@ button, #inputCustom{
 
 .svgImage2{
     position: absolute;
-    bottom: 1rem;
-    left: 0.7rem;
+    top: 9.2rem;
+    left: 1.6rem;
 }
 
 
@@ -169,7 +169,6 @@ button, #inputCustom{
 .thirdBox{
     margin-top: 1.5rem;
     padding: 1.5rem 1rem;
-    
     border-radius: 1rem;
     background-color:hsl(183, 100%, 15%);
     display: flex;
@@ -227,9 +226,9 @@ span.person{
 
 .zero{
     position: absolute;
-    bottom: 24rem;
+    top: 7rem;
     right: 1rem;
-    font-size: 0.5rem;
+    font-size: 1rem;
     color: red;
 }
 
@@ -237,5 +236,8 @@ span.person{
     font-size: 0.5rem;
     color: red;
 }
+
+
+/* Media Query */
 
 
